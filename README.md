@@ -12,6 +12,7 @@
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img src="certs.svg" />
+  <img src="bookshelf.png">
 </picture>
 
 
