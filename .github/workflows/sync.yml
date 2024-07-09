@@ -14,10 +14,10 @@ jobs:
 
     - name: Download new image
       run: |
-        curl -o certs.svg https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20
+        curl -o certs.svg --location --request GET 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20'
     - name: Download new image dark theme
       run: |
-        curl -o certs-dark.svg https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20&theme=dark
+        curl -o certs-dark.svg --location --request GET 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20&theme=dark'
     - name: update image to repository
       run: |
         git config --local user.email "1692565761@qq.com"
@@ -28,4 +28,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GH_TOKEN }}
-        branch: main
+        branch: master
