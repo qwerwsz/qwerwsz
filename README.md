@@ -14,7 +14,7 @@
   <img src="certs.svg" />
 </picture>
 <picture>
-  <img src="bookshelf.png" />
+  <img src="start75450.png" />
 </picture>
 
 
