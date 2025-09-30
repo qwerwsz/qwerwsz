@@ -1,4 +1,4 @@
-name: Update Image
+name: Update Certificate Images
 
 on:
   schedule:
@@ -7,24 +7,43 @@ on:
 jobs:
   update-image:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: certs-image-sync
+      cancel-in-progress: false
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@main
 
-    - name: Download new image
+    - name: Download new image (light)
       run: |
-        curl -o certs.svg --location --request GET 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20'
-    - name: Download new image dark theme
+        set -euo pipefail
+        curl -fsSL -o certs.svg 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20'
+        test -s certs.svg
+    - name: Download new image (dark)
       run: |
-        curl -o certs-dark.svg --location --request GET 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20&theme=dark'
-    - name: update image to repository
+        set -euo pipefail
+        curl -fsSL -o certs-dark.svg 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20&theme=dark'
+        test -s certs-dark.svg
+    - name: Commit changes if any
       run: |
-        git config --local user.email "1692565761@qq.com"
-        git config --local user.name "three-days-and-three-nights"
-        git add .
-        git commit -m "Update image"  
+        set -euo pipefail
+        git config --local user.email "admin@daka.today"
+        git config --local user.name "qwerwsz"
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git add certs.svg certs-dark.svg
+        if git diff --cached --quiet; then
+          echo "No staged changes"
+          exit 0
+        fi
+        git commit -m "chore(ci): update certificate images"
     - name: Push changes
+      if: ${{ success() }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GH_TOKEN }}
