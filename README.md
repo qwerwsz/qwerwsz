@@ -38,7 +38,7 @@
 
 ### 🎓 Certificates & 🛠️ Skills
 
-<table align="center">
+<table>
 <tr>
 <td width="520" valign="top">
 
