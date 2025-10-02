@@ -51,25 +51,6 @@
 </td>
 <td valign="top">
 
----
-
-### 🎓 Certificates & 🛠️ Skills
-
-<table>
-<tr>
-<td width="520" valign="top">
-
-#### 📜 Certificates
-
-<picture>
-  <source srcset="certs-dark.svg" media="(prefers-color-scheme: dark)" />
-  <source srcset="certs.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="certs.svg" alt="Certificates preview" width="520" loading="lazy" />
-</picture>
-
-</td>
-<td valign="top">
-
 #### 🔧 Skills
 
 **Languages**
