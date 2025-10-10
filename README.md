@@ -37,10 +37,11 @@
 ### 🎓 Certificates & 🛠️ Skills
 
 <table>
+<tbody>
 <tr>
 <td width="520" valign="top">
 
-#### 📜 Certificates
+<h4>📜 Certificates</h4>
 
 <picture>
   <source srcset="certs-dark.svg" media="(prefers-color-scheme: dark)" />
@@ -51,10 +52,12 @@
 </td>
 <td valign="top">
 
-#### 🔧 Skills
+<h4>🔧 Skills</h4>
 
-**Languages**
+<strong>Languages</strong>
+
 <table>
+<tbody>
 <tr>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" /></td>
@@ -63,13 +66,15 @@
 </tr>
 <tr>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="36" /></td>
- <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="36" /></td>
-          
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="36" /></td>
 </tr>
+</tbody>
 </table>
 
-**Databases**
+<strong>Databases</strong>
+
 <table>
+<tbody>
 <tr>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="36" /></td>
@@ -77,35 +82,45 @@
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="36" /></td>
 </tr>
 <tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="36"/></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="36" /></td>
 </tr>
+</tbody>
 </table>
 
-**Frameworks**
+<strong>Frameworks</strong>
+
 <table>
+<tbody>
 <tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="36"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="36"/></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="36" /></td>
 </tr>
+</tbody>
 </table>
 
-**DevOps & Tools**
+<strong>DevOps & Tools</strong>
+
 <table>
+<tbody>
 <tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="36"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="36"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="36"/></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="36" /></td>
 </tr>
 <tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="36"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36"/></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openstack/openstack-original.svg" width="36" /></td>
 </tr>
+</tbody>
 </table>
 
 </td>
 </tr>
+</tbody>
 </table>
+
+
 
 ---
