@@ -54,7 +54,7 @@
 
 <h4>🛵 SMART CAR</h4>
 <img src="smart.png" alt="Smart e-bike" width="100%" loading="lazy" />
-
+<img src="data/ebike-location.png" alt="Smart e-bike location" width="100%" loading="lazy" />
 <h4>🔧 Skills</h4>
 
 <strong>Languages</strong>

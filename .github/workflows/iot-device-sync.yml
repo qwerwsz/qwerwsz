@@ -36,9 +36,9 @@ jobs:
         set -euo pipefail
         git config --local user.email "admin@daka.today"
         git config --local user.name "qwerwsz"
-        git add data/ebike-location.json data/ebike-location.png
+        git add data/ebike-location.png
         # Always commit regardless of changes
-        git commit -m "chore(iot): update ebike location data and map" || echo "No changes to commit"
+        git commit -m "chore(iot): update ebike location map" || echo "No changes to commit"
         
     - name: Push changes
       if: ${{ success() }}
