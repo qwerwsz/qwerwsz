@@ -58,7 +58,7 @@
 <picture>
   <source srcset="data/ebike-location-dark.svg" media="(prefers-color-scheme: dark)" />
   <source srcset="data/ebike-location-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="data/ebike-location-light.svg" alt="Certificates preview" width="520" loading="lazy" />
+  <img src="data/ebike-location-light.svg" alt="Ebike-Location preview" width="520" loading="lazy" />
 </picture>
 
 <h4>🔧 Skills</h4>
@@ -129,7 +129,5 @@
 </tr>
 </tbody>
 </table>
-
-
 
 ---
