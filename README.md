@@ -54,12 +54,12 @@
 
 <h4>🛵 SMART CAR</h4>
 <img src="smart.png" alt="Smart e-bike" width="100%" loading="lazy" />
-<img src="data/ebike-location.png" alt="Smart e-bike location" width="100%" loading="lazy" />
 <picture>
   <source srcset="data/ebike-location-dark.svg" media="(prefers-color-scheme: dark)" />
   <source srcset="data/ebike-location-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
   <img src="data/ebike-location-light.svg" alt="Ebike-Location preview" width="520" loading="lazy" />
 </picture>
+<img src="data/ebike-location.png" alt="Smart e-bike location" width="100%" loading="lazy" />
 
 <h4>🔧 Skills</h4>
 
