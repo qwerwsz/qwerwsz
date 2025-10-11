@@ -31,16 +31,9 @@ jobs:
         set -euo pipefail
         git config --local user.email "admin@daka.today"
         git config --local user.name "qwerwsz"
-        if git diff --quiet && git diff --staged --quiet; then
-          echo "No changes to commit"
-          exit 0
-        fi
         git add data/ebike-location.json
-        if git diff --cached --quiet; then
-          echo "No staged changes"
-          exit 0
-        fi
-        git commit -m "chore(iot): update ebike location data"
+        # Always commit regardless of changes
+        git commit -m "chore(iot): update ebike location data" || echo "No changes to commit"
         
     - name: Push changes
       if: ${{ success() }}
