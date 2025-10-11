@@ -1,0 +1,50 @@
+name: Update IoT Device Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: iot-device-sync
+      cancel-in-progress: false
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@main
+
+    - name: Get ebike location data
+      run: |
+        set -euo pipefail
+        mkdir -p data
+        curl -fsSL -H 'accept: application/json' \
+          'https://smart-backend-seven.vercel.app/ebike/newest-location' \
+          -o data/ebike-location.json
+        test -s data/ebike-location.json
+
+    - name: Commit changes if any
+      run: |
+        set -euo pipefail
+        git config --local user.email "admin@daka.today"
+        git config --local user.name "qwerwsz"
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git add data/ebike-location.json
+        if git diff --cached --quiet; then
+          echo "No staged changes"
+          exit 0
+        fi
+        git commit -m "chore(iot): update ebike location data"
+        
+    - name: Push changes
+      if: ${{ success() }}
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
+        branch: master
