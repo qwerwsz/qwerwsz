@@ -44,9 +44,9 @@
 <h4>📜 Certificates</h4>
 
 <picture>
-  <source srcset="certs-dark.svg" media="(prefers-color-scheme: dark)" />
-  <source srcset="certs.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="certs.svg" alt="Certificates preview" width="520" loading="lazy" />
+  <source srcset="data/certs-dark.svg" media="(prefers-color-scheme: dark)" />
+  <source srcset="data/certs-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="data/certs-light.svg" alt="Certificates preview" width="520" loading="lazy" />
 </picture>
 
 </td>
@@ -55,6 +55,12 @@
 <h4>🛵 SMART CAR</h4>
 <img src="smart.png" alt="Smart e-bike" width="100%" loading="lazy" />
 <img src="data/ebike-location.png" alt="Smart e-bike location" width="100%" loading="lazy" />
+<picture>
+  <source srcset="data/ebike-location-dark.svg" media="(prefers-color-scheme: dark)" />
+  <source srcset="data/ebike-location-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="data/ebike-location-light.svg" alt="Certificates preview" width="520" loading="lazy" />
+</picture>
+
 <h4>🔧 Skills</h4>
 
 <strong>Languages</strong>
