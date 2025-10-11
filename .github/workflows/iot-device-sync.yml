@@ -31,15 +31,15 @@ jobs:
         # Download map images
         curl -fsSL "https://smart-backend-seven.vercel.app/map-proxy?lat=$LAT&lon=$LON" -o data/ebike-location.png
         # Download ebike location XML images (light and dark themes)
-        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=light" -o data/ebike-location-light.png
-        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=dark" -o data/ebike-location-dark.png
+        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=light" -o data/ebike-location-light.svg
+        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=dark" -o data/ebike-location-dark.svg
         
     - name: Commit changes if any
       run: |
         set -euo pipefail
         git config --local user.email "admin@daka.today"
         git config --local user.name "qwerwsz"
-        git add data/ebike-location.json data/ebike-location.png data/ebike-location-light.png data/ebike-location-dark.png
+        git add data/ebike-location.json data/ebike-location.png data/ebike-location-light.svg data/ebike-location-dark.svg
         # Always commit regardless of changes
         git commit -m "chore(iot): update ebike location data and maps" || echo "No changes to commit"
         
