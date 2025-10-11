@@ -1,0 +1,48 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="240" height="110" viewBox="0 0 240 110">
+          <defs>
+            <linearGradient id="miOrangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#FF6900;stop-opacity:1"/>
+              <stop offset="50%" style="stop-color:#FF8C00;stop-opacity:1"/>
+              <stop offset="100%" style="stop-color:#FF6900;stop-opacity:1"/>
+            </linearGradient>
+          </defs>
+          <style>
+            .card {
+              fill: #ffffff;
+              stroke: #e2e8f0;
+              stroke-width: 1;
+              rx: 10;
+              ry: 10;
+              filter: drop-shadow(0px 2px 6px rgba(0,0,0,0.08));
+            }
+            .label {
+              font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+              fill: #64748b;
+            }
+            .value {
+              font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+              fill: #0f172a;
+            }
+            .time {
+              font: 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+              fill: #2563eb;
+            }
+          </style>
+          
+          <rect class="card" width="100%" height="100%" rx="10" ry="10"/>
+
+          <text class="label" x="10" y="30">- 纬度:</text>
+          <text class="value" x="55" y="30">34.894536363942144</text>
+
+          <text class="label" x="10" y="50">- 经度:</text>
+          <text class="value" x="55" y="50">113.6093250484424</text>
+
+          <text class="label" x="10" y="70">- 地址:</text>
+          <text class="value" x="55" y="70">郑州市惠济区绿源路辅路</text>
+
+          <text class="time" x="30" y="90">更新: 2025-10-10 16:02:06</text>
+          
+          <rect x="2" y="2" width="236" height="106" rx="10" ry="10" fill="none" stroke="url(#miOrangeGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
