@@ -53,7 +53,7 @@
 <td width="340" valign="top">
 
 <h4>🛵 SMART CAR</h4>
-<img src="smart.png" alt="Smart e-bike" width="100%" loading="lazy" />
+<img src="smart.gif" alt="Smart e-bike" width="100%" loading="lazy" />
 <picture>
   <source srcset="data/ebike-location-dark.svg" media="(prefers-color-scheme: dark)" />
   <source srcset="data/ebike-location-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
