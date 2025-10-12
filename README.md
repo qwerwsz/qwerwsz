@@ -72,9 +72,9 @@
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="36" /></td>
 </tr>
 <tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="36" /></td>
 </tr>
 </tbody>
@@ -89,8 +89,6 @@
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="36" /></td>
-</tr>
-<tr>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="36" /></td>
 </tr>
 </tbody>
@@ -116,11 +114,11 @@
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="36" /></td>
+  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openstack/openstack-original.svg" width="36" /></td>
 </tr>
 <tr>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="36" /></td>
   <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" /></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openstack/openstack-original.svg" width="36" /></td>
 </tr>
 </tbody>
 </table>
