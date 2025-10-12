@@ -50,7 +50,7 @@
 </picture>
 
 </td>
-<td width="300" valign="top">
+<td width="340" valign="top">
 
 <h4>🛵 SMART CAR</h4>
 <img src="smart.png" alt="Smart e-bike" width="100%" loading="lazy" />
