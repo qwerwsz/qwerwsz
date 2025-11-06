@@ -37,18 +37,18 @@
           <rect class="card" width="100%" height="100%" rx="10" ry="10"/>
 
           <text class="label" x="35" y="20">📍 - 纬度:</text>
-          <text class="value" x="85" y="20">34.896107552181256</text>
+          <text class="value" x="85" y="20">34.89384959655905</text>
 
           <text class="label" x="35" y="37.5">📍 - 经度:</text>
-          <text class="value" x="85" y="37.5">113.60947433049454</text>
+          <text class="value" x="85" y="37.5">113.60914206252691</text>
 
           <text class="label" x="35" y="55">🇨🇳 - 地址:</text>
-          <text class="value" x="85" y="55">郑州市惠济区绿源路辅路</text>
+          <text class="value" x="85" y="55">郑州市惠济区绿源路</text>
           
           <text class="label" x="35" y="72.5">🚗 - 里程:</text>
-          <text class="value" x="85" y="72.5">3506.0 km</text>
+          <text class="value" x="85" y="72.5">3520.2 km</text>
 
-          <text class="time" x="60" y="85.5">⌚ 更新: 2025-11-05 17:22:54</text>
+          <text class="time" x="60" y="85.5">⌚ 更新: 2025-11-06 01:07:05</text>
           
           <rect x="2" y="2" width="275" height="91" rx="10" ry="10" fill="none" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
