@@ -48,7 +48,7 @@
           <text class="label" x="35" y="72.5">🚗 - 里程:</text>
           <text class="value" x="85" y="72.5">3549.7 km</text>
 
-          <text class="time" x="60" y="85.5">⌚ 更新: 2025-11-20 19:58:23</text>
+          <text class="time" x="60" y="85.5">⌚ 更新: 2025-11-20 21:50:35</text>
           
           <rect x="2" y="2" width="275" height="91" rx="10" ry="10" fill="none" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
