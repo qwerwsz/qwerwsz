@@ -4,39 +4,25 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   update-image:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    concurrency:
-      group: certs-image-sync
-      cancel-in-progress: false
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
+    - uses: actions/checkout@v4
 
-    - name: Download certificate images
+    - name: Fetch certificate SVGs
       run: |
-        set -euo pipefail
         mkdir -p data
         curl -fsSL -o data/certs-light.svg 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20'
-        test -s data/certs-light.svg
         curl -fsSL -o data/certs-dark.svg 'https://certificate-mu-beige.vercel.app/certs_image?page=1&limit=20&theme=dark'
-        test -s data/certs-dark.svg
 
-    - name: Commit changes if any
+    - name: Commit and push
       run: |
-        set -euo pipefail
         git config --local user.email "admin@daka.today"
         git config --local user.name "qwerwsz"
         git add data/certs-light.svg data/certs-dark.svg
-        git commit -m "chore(ci): update certificate images" || echo "No changes to commit"
-
-    - name: Push changes
-      if: ${{ success() }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GH_TOKEN }}
-        branch: master
+        git diff --staged --quiet || (git commit -m "chore(ci): update certificate images" && git push)

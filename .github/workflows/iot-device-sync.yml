@@ -4,38 +4,25 @@ on:
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    concurrency:
-      group: iot-device-sync
-      cancel-in-progress: false
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
+    - uses: actions/checkout@v4
 
-    - name: Get ebike location data and images
+    - name: Fetch ebike location SVGs
       run: |
-        set -euo pipefail
-        mkdir -p data  # Download ebike location XML images (light and dark themes)
-        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=light" -o data/ebike-location-light.svg
-        curl -fsSL "https://smart-backend-seven.vercel.app/ebike/newest-location-xml?theme=dark" -o data/ebike-location-dark.svg
-        
-    - name: Commit changes if any
+        mkdir -p data
+        curl -fsSL "https://smart-backend-eta.vercel.app/ebike/newest-location-xml?theme=light" -o data/ebike-location-light.svg
+        curl -fsSL "https://smart-backend-eta.vercel.app/ebike/newest-location-xml?theme=dark" -o data/ebike-location-dark.svg
+
+    - name: Commit and push
       run: |
-        set -euo pipefail
         git config --local user.email "admin@daka.today"
         git config --local user.name "qwerwsz"
-        git add data/ebike-location.json data/ebike-location.png data/ebike-location-light.svg data/ebike-location-dark.svg
-        # Always commit regardless of changes
-        git commit -m "chore(iot): update ebike location data and maps" || echo "No changes to commit"
-        
-    - name: Push changes
-      if: ${{ success() }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GH_TOKEN }}
-        branch: master
+        git add data/ebike-location-light.svg data/ebike-location-dark.svg
+        git diff --staged --quiet || (git commit -m "chore(iot): update ebike location data" && git push)
