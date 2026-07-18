@@ -59,7 +59,6 @@
   <source srcset="data/ebike-location-light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
   <img src="data/ebike-location-light.svg" alt="Ebike-Location preview" width="520" loading="lazy" />
 </picture>
-<img src="data/ebike-location.png" alt="Smart e-bike location" width="100%" loading="lazy" />
 
 <h4>🔧 Skills</h4>
 
