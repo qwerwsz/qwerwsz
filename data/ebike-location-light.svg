@@ -60,18 +60,18 @@
   <circle cx="14" cy="276" r="2.5" fill="#e3b341"/>
   <text x="22" y="276" font-size="10" fill="#1f2328" font-weight="600" dy=".33em">电池信息</text>
   <line x1="82" y1="276" x2="268" y2="276" stroke="#f6f8fa" stroke-width="0.5"/>
-  <text x="14" y="298" font-size="10" fill="#1f2328" dy=".33em">电压 46.86V</text>
+  <text x="14" y="298" font-size="10" fill="#1f2328" dy=".33em">电压 46.90V</text>
   <text x="100" y="298" font-size="10" fill="#656d76" dy=".33em">|</text>
-  <text x="108" y="298" font-size="10" fill="#1f2328" dy=".33em">温度 27°C</text>
+  <text x="108" y="298" font-size="10" fill="#1f2328" dy=".33em">温度 24°C</text>
   <text x="186" y="298" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="194" y="298" font-size="10" fill="#1f2328" dy=".33em">循环 38次</text>
-  <text x="14" y="320" font-size="10" fill="#1f2328" dy=".33em">保护板 30°C</text>
+  <text x="14" y="320" font-size="10" fill="#1f2328" dy=".33em">保护板 24°C</text>
   <text x="100" y="320" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="108" y="320" font-size="10" fill="#1f2328" dy=".33em">电芯 13串</text>
   <text x="186" y="320" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="194" y="320" font-size="10" fill="#1f2328" dy=".33em">SOH 100%</text>
-  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.606 3.603 3.605 3.604 3.606 3.603 3.604</text>
-  <text x="14" y="350" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.607 3.609 3.606 3.604 3.608 3.604</text>
+  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.608 3.605 3.607 3.606 3.609 3.606 3.606</text>
+  <text x="14" y="350" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.610 3.611 3.608 3.607 3.611 3.606</text>
 
   <line x1="12" y1="368" x2="268" y2="368" stroke="#d0d7de" stroke-width="0.5"/>
   <text x="140" y="384" font-size="9" fill="#afb8c1" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-07-28 00:24:08</text>
