@@ -16,9 +16,9 @@
   <rect x="24" y="17" width="2" height="3" rx="0.5" fill="#1a7f37"/>
   <rect x="14" y="17" width="8" height="3" rx="0.5" fill="#1a7f37"/>
   <text x="30" y="20" font-size="9" fill="#656d76" font-weight="600" dy=".33em">SOC</text>
-  <text x="56" y="20" font-size="11" fill="#1f2328" font-weight="700" dy=".33em">33%</text>
+  <text x="56" y="20" font-size="11" fill="#1f2328" font-weight="700" dy=".33em">34%</text>
   <rect x="105" y="17" width="130" height="6" rx="3" fill="#d0d7de"/>
-  <rect x="105" y="17" width="42" height="6" rx="3" fill="#d29922"/>
+  <rect x="105" y="17" width="44" height="6" rx="3" fill="#d29922"/>
   <circle cx="18" cy="40" r="4" fill="#0969da"/>
   <polygon points="14,43 22,43 18,49" fill="#0969da"/>
   <text x="30" y="40" font-size="9" fill="#656d76" font-weight="600" dy=".33em">LOC</text>
@@ -70,9 +70,9 @@
   <text x="108" y="320" font-size="10" fill="#1f2328" dy=".33em">电芯 13串</text>
   <text x="186" y="320" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="194" y="320" font-size="10" fill="#1f2328" dy=".33em">SOH 100%</text>
-  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.608 3.605 3.607 3.606 3.609 3.606 3.606</text>
+  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.608 3.606 3.607 3.606 3.609 3.606 3.606</text>
   <text x="14" y="350" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">3.610 3.611 3.608 3.607 3.611 3.606</text>
 
   <line x1="12" y1="368" x2="268" y2="368" stroke="#d0d7de" stroke-width="0.5"/>
-  <text x="140" y="384" font-size="9" fill="#afb8c1" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-07-28 00:24:08</text>
+  <text x="140" y="384" font-size="9" fill="#afb8c1" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-07-29 00:24:15</text>
 </svg>
