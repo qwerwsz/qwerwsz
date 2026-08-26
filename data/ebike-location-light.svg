@@ -16,9 +16,9 @@
   <rect x="24" y="17" width="2" height="3" rx="0.5" fill="#1a7f37"/>
   <rect x="14" y="17" width="8" height="3" rx="0.5" fill="#1a7f37"/>
   <text x="30" y="20" font-size="9" fill="#656d76" font-weight="600" dy=".33em">SOC</text>
-  <text x="56" y="20" font-size="11" fill="#1f2328" font-weight="700" dy=".33em">91%</text>
+  <text x="56" y="20" font-size="11" fill="#1f2328" font-weight="700" dy=".33em">90%</text>
   <rect x="105" y="17" width="130" height="6" rx="3" fill="#d0d7de"/>
-  <rect x="105" y="17" width="118" height="6" rx="3" fill="#3fb950"/>
+  <rect x="105" y="17" width="117" height="6" rx="3" fill="#3fb950"/>
   <circle cx="18" cy="40" r="4" fill="#0969da"/>
   <polygon points="14,43 22,43 18,49" fill="#0969da"/>
   <text x="30" y="40" font-size="9" fill="#656d76" font-weight="600" dy=".33em">LOC</text>
@@ -60,19 +60,19 @@
   <circle cx="14" cy="276" r="2.5" fill="#e3b341"/>
   <text x="22" y="276" font-size="10" fill="#1f2328" font-weight="600" dy=".33em">电池信息</text>
   <line x1="82" y1="276" x2="268" y2="276" stroke="#f6f8fa" stroke-width="0.5"/>
-  <text x="14" y="298" font-size="10" fill="#1f2328" dy=".33em">电压 52.60V</text>
+  <text x="14" y="298" font-size="10" fill="#1f2328" dy=".33em">电压 52.55V</text>
   <text x="100" y="298" font-size="10" fill="#656d76" dy=".33em">|</text>
-  <text x="108" y="298" font-size="10" fill="#1f2328" dy=".33em">温度 26°C</text>
+  <text x="108" y="298" font-size="10" fill="#1f2328" dy=".33em">温度 25°C</text>
   <text x="186" y="298" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="194" y="298" font-size="10" fill="#1f2328" dy=".33em">循环 40次</text>
-  <text x="14" y="320" font-size="10" fill="#1f2328" dy=".33em">保护板 25°C</text>
+  <text x="14" y="320" font-size="10" fill="#1f2328" dy=".33em">保护板 26°C</text>
   <text x="100" y="320" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="108" y="320" font-size="10" fill="#1f2328" dy=".33em">电芯 13串</text>
   <text x="186" y="320" font-size="10" fill="#656d76" dy=".33em">|</text>
   <text x="194" y="320" font-size="10" fill="#1f2328" dy=".33em">SOH 100%</text>
-  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">4.043 4.047 4.050 4.046 4.043 4.050 4.050</text>
-  <text x="14" y="350" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">4.045 4.050 4.043 4.049 4.045 4.048</text>
+  <text x="14" y="334" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">4.040 4.043 4.046 4.042 4.039 4.046 4.046</text>
+  <text x="14" y="350" font-size="7" fill="#656d76" font-family="monospace" dy=".33em">4.041 4.046 4.040 4.045 4.041 4.044</text>
 
   <line x1="12" y1="368" x2="268" y2="368" stroke="#d0d7de" stroke-width="0.5"/>
-  <text x="140" y="384" font-size="9" fill="#afb8c1" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-08-26 00:04:01</text>
+  <text x="140" y="384" font-size="9" fill="#afb8c1" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-08-26 20:38:51</text>
 </svg>
