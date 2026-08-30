@@ -60,19 +60,19 @@
   <circle cx="14" cy="276" r="2.5" fill="#e3b341"/>
   <text x="22" y="276" font-size="10" fill="#e6edf3" font-weight="600" dy=".33em">电池信息</text>
   <line x1="82" y1="276" x2="268" y2="276" stroke="#21262d" stroke-width="0.5"/>
-  <text x="14" y="298" font-size="10" fill="#e6edf3" dy=".33em">电压 52.50V</text>
+  <text x="14" y="298" font-size="10" fill="#e6edf3" dy=".33em">电压 52.45V</text>
   <text x="100" y="298" font-size="10" fill="#8b949e" dy=".33em">|</text>
   <text x="108" y="298" font-size="10" fill="#e6edf3" dy=".33em">温度 25°C</text>
   <text x="186" y="298" font-size="10" fill="#8b949e" dy=".33em">|</text>
   <text x="194" y="298" font-size="10" fill="#e6edf3" dy=".33em">循环 40次</text>
-  <text x="14" y="320" font-size="10" fill="#e6edf3" dy=".33em">保护板 24°C</text>
+  <text x="14" y="320" font-size="10" fill="#e6edf3" dy=".33em">保护板 26°C</text>
   <text x="100" y="320" font-size="10" fill="#8b949e" dy=".33em">|</text>
   <text x="108" y="320" font-size="10" fill="#e6edf3" dy=".33em">电芯 13串</text>
   <text x="186" y="320" font-size="10" fill="#8b949e" dy=".33em">|</text>
   <text x="194" y="320" font-size="10" fill="#e6edf3" dy=".33em">SOH 100%</text>
-  <text x="14" y="334" font-size="7" fill="#8b949e" font-family="monospace" dy=".33em">4.036 4.039 4.042 4.038 4.035 4.042 4.042</text>
-  <text x="14" y="350" font-size="7" fill="#8b949e" font-family="monospace" dy=".33em">4.038 4.042 4.036 4.041 4.037 4.040</text>
+  <text x="14" y="334" font-size="7" fill="#8b949e" font-family="monospace" dy=".33em">4.032 4.035 4.038 4.034 4.031 4.038 4.038</text>
+  <text x="14" y="350" font-size="7" fill="#8b949e" font-family="monospace" dy=".33em">4.033 4.038 4.031 4.037 4.033 4.036</text>
 
   <line x1="12" y1="368" x2="268" y2="368" stroke="#30363d" stroke-width="0.5"/>
-  <text x="140" y="384" font-size="9" fill="#484f58" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-08-30 00:04:36</text>
+  <text x="140" y="384" font-size="9" fill="#484f58" text-anchor="middle" dy=".33em">金箭智行·数据更新时间为 2026-08-31 00:04:50</text>
 </svg>
